@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-image: url("https://img.odcdn.com.br/wp-content/uploads/2024/11/imagem_2024-11-25_174644953.png") ;
+    }
+    
+    body{
+    font-family:Arial,sans-serif;
+    background-color:lightgray;
+    color:darkgray;
+    text-align:center;
+    padding:20px;
+
+    }
+    
+    h1{
+
+    font-size:2rem;
+    color:royalblue;
+    margin-bottom:20px;
+    }
+    
+    input[type="text"]{
+    padding:10px;
+    font-size:1rem;
+
+    width:250px;
+    border:2px solid royalblue;
+    border-radius:5px;
+    margin-right:10px;
+    }
+    
+    button{
+    padding:10px 20px;
+    font-size:1rem;
+    background-color:royalblue;
+    border:none;
+
+    border-radius:5px;
+    cursor:pointer;
+    }
+    
+    #resultado{
+    margin-top:20px;
+    }
+    
+    .card{
+
+    width:200px;
+    background-color:white;
+    border:1px solid lightgray;
+    border-radius:5px;
+    padding:15px;
+    display:inline-block;
+    margin:10px;
+
+    }
+    
+    .card img{
+    width:150px;
+    height:200px;
+    margin-bottom:10px;
+    }
+    
+    .card h3{
+
+
+    font-size:1rem;
+    color:darkgray;
+    
+    }
+    
+    .card p{
+    font-size:.9rem;
+    color:gray;
+    }
+    
