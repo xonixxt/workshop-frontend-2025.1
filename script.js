@@ -15,12 +15,9 @@ async function buscar() {
         let cartaDiv = document.createElement('div')
         carta = dados.data[0]
         
-        cartaDiv.innerHTML = `
-        <h2>${carta.name}</h2>
-        <img src="${carta.images.small}" />
-        <p>Raridade: ${carta.rarity}</p>
-        <hr>
-        `
+        cartaDiv.innerHTML = 
+        `<h2>${carta.name}</h2>
+        <img src="${carta.images.small}"/>`
         resultado.appendChild(cartaDiv)
     }
     
