@@ -1,6 +1,5 @@
 async function buscar() {
     nomeCarta = document.getElementById('pesquisa').value.toLowerCase();
-    apiKey = '1e9da96c-6f8e-4c91-8706-f9764654cdb0'
     url = `https://api.pokemontcg.io/v2/cards?q=name:${nomeCarta}`
     resposta = await fetch(url)
     dados = await resposta.json()
